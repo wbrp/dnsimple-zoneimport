@@ -1,0 +1,9 @@
+*.egg-info
+*.pyc
+.coverage
+.coveralls.yml
+dist
+build
+htmlcov
+*.swp
+*.log
