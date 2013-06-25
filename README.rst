@@ -31,6 +31,14 @@ Usage
         -v --version  Show version.
 
 
+Development
+-----------
+
+If you have checked out the source code, start the script with ::
+
+    python -m dnsimple_zoneimport.importer
+
+
 Testing
 -------
 
@@ -47,6 +55,19 @@ Sourcecode
 ----------
 
 The sourcecode is available on Github: https://github.com/wbrp/dnsimple-zoneimport
+
+
+Coding Guidelines
+-----------------
+
+PEP8 via `flake8 <https://pypi.python.org/pypi/flake8>`_ with max-line-width set
+to 99 and E126-E128 ignored.
+
+
+Versioning
+----------
+
+This project uses `Semantic Versioning <http://semver.org/>`_.
 
 
 License
