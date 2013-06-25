@@ -127,7 +127,7 @@ def main():
     requests_log.setLevel(logging.WARN)
 
     # Parse arguments
-    arguments = docopt(__doc__, version='v0.1.0')
+    arguments = docopt(__doc__, version='v0.1.1')
 
     # Create and run importer
     importer = Importer(arguments['<zonefile>'], arguments['<email>'], arguments['<api-token>'])
